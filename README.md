@@ -96,6 +96,6 @@ endmodule
 
 **RESULT**
 
-Thus the implemention of SR flipflop using verilog and validating their functionality using their functional tables
+The program of SR flipflop using verilog and validating their functionality using their functional tables is implemented.
 
 
