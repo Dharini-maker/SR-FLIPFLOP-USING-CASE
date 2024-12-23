@@ -90,7 +90,7 @@ endmodule
 ![exp6 gate](https://github.com/user-attachments/assets/a37dab22-960f-460f-ac77-874e6d254643)
 
 
-**TIMING DIAGRAMS FOR FLIP FLOPS**
+**TIMING DIAGRAMS FOR FLIP FLOP**
 
 ![exp6 op](https://github.com/user-attachments/assets/c6b2c151-61a5-40b4-8226-2b1338c2d367)
 
