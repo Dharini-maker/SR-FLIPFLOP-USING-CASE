@@ -53,35 +53,35 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 Register Number:24002206
 
 
- module sr_ff(s,r,clk,q,qbar);
+      module sr_ff(s,r,clk,q,qbar);
 
-input s,r,clk;
+      input s,r,clk;
 
-output reg q;
+      output reg q;
 
-output reg qbar;
+      output reg qbar;
 
-initial 
+      initial 
 
-begin
+      begin
 
-q=0;
+      q=0;
 
-qbar=1;
+      qbar=1;
 
-end
+      end
 
-always @(posedge clk)
+      always @(posedge clk)
 
-begin
+      begin
 
-   q=s|(~r&q);
+      q=s|(~r&q);
    
-   qbar=r|(~s&~q);
+     qbar=r|(~s&~q);
 
-end
+     end
 
-endmodule
+     endmodule
 
 
 
